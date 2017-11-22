@@ -7,6 +7,8 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
 // @match        *://ecampus2.nchu.edu.tw/eCampus3P/Learn/stu_materials_document_list.aspx
+// @updateURL    https://raw.githubusercontent.com/ymps3502/Ecampus-quick-downloader/master/Ecampus%20quick%20downloader.js
+// @downloadURL  https://raw.githubusercontent.com/ymps3502/Ecampus-quick-downloader/master/Ecampus%20quick%20downloader.js
 // ==/UserScript==
 
 /* jshint ignore:start */
