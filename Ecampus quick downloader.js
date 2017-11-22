@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ecampus quick downloader
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  add link to quickly download file without open annoying pop-up window.
 // @author       chaney
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
