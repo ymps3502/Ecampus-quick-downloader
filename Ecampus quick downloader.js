@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Ecampus quick downloader
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.001
 // @description  add link to quickly download file without open annoying pop-up window.
 // @author       chaney
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
-// @match        *://ecampus2.nchu.edu.tw/eCampus3P/Learn/stu_materials_document_list.aspx
+// @match        *://ecampus2.nchu.edu.tw/eCampus3P/Learn/stu_materials_document_list.aspx*
 // @updateURL    https://raw.githubusercontent.com/ymps3502/Ecampus-quick-downloader/master/Ecampus%20quick%20downloader.js
 // @downloadURL  https://raw.githubusercontent.com/ymps3502/Ecampus-quick-downloader/master/Ecampus%20quick%20downloader.js
 // ==/UserScript==
@@ -46,7 +46,7 @@ var inline_src = (<><![CDATA[
 				}
 				let mediaId = args[0].split('?')[1];
 				let link = 'common_get_content_media_attach_file.ashx?' + mediaId + '&' + courseId;
-				window.location.href = link; // download file
+				window.open(link); // download file
 			}
 			popup.close();
 		};
